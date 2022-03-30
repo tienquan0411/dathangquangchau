@@ -6,8 +6,9 @@ html {
     height: 62px;
     background: url("../img/bg-header.jpg") repeat-x;
     background-color: var(--primary-color);
-    position: relative;
+    position: fixed;
     z-index: 99;
+    width: 100%;
 }
 
 #header::before {
